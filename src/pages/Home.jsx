@@ -38,7 +38,7 @@ const Home = () => {
     <div className="store">
     <Search/>
     
-    <Favorites />
+    <Favorites favoriteMeals={favoriteMeals} />
     
     <div className="meals" id="meals">
       {randomMeal && (
