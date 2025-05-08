@@ -17,7 +17,7 @@ const MealCard = ({
                 <button
                     className={`fav-btn ${isFavorite ? "active" : ""}`}
                     onClick={addToFavorites}
-                    disabled={isFavorite} 
+                    disabled={isFavorite}
                 >
                     <i className="fas fa-heart"></i>
                 </button>
